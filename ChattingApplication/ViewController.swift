@@ -7,19 +7,31 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+import CoreData
+class ViewController: UIViewController , UITextFieldDelegate{
+    var arrayName = [String]()
+    var arrayId = [Int]()
+    var index = Int()
+    
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var addUser: UITextField!
+    @IBOutlet weak var btnAdd: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+         // DeleteAllData()
+           
+         retrieveSenders()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    @IBAction func btnAddUser(_ sender: UIButton) {
+       if !(addUser.text?.isEmpty)!
+        {
+            saveSenders()
+            tableView.reloadData()
+            addUser.text = constants.blank.id
+        }
+        else{
+            
+            }
+        }
 }
 

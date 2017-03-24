@@ -1,0 +1,18 @@
+PODS:
+  - ASJExpandableTextView (0.4)
+  - IQKeyboardManagerSwift (4.0.8)
+  - Kingfisher (3.3.4)
+
+DEPENDENCIES:
+  - ASJExpandableTextView
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 3.0)
+
+SPEC CHECKSUMS:
+  ASJExpandableTextView: bfc429e37d4835e628127d3aa09a5e6971e9bfe4
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  Kingfisher: 35f289f015d26e81ea6c85048718c6205f3933c6
+
+PODFILE CHECKSUM: 069c412e403bfb1b4e4fc28a00733c8dbb8a4217
+
+COCOAPODS: 1.2.0
